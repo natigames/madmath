@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3698454770461975209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3698454770461975211}
+  - component: {fileID: 3698454770461975210}
+  m_Layer: 0
+  m_Name: Game
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3698454770461975211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3698454770461975209}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3698454770461975210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3698454770461975209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: add0a610ace68417e838947f662f29ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 0}
+  optionButton1: {fileID: 0}
+  optionButton2: {fileID: 0}
+  optionButton3: {fileID: 0}
+  optionButton4: {fileID: 0}
+  optionButton5: {fileID: 0}
+  timeCounter: {fileID: 0}
+  currentLevel: {fileID: 0}
+  killCount: {fileID: 0}
+  madLife: {fileID: 0}
+  bg: {fileID: 0}
+  thisLevel: 1-1
+  isready: 0
+  playQ: 0
+  useSum: 1
+  useSub: 1
+  useMul: 0
+  useDiv: 0
+  usePar: 1
+  useNeg: 0
+  Decimals: 1
+  minBaseNumber: 0
+  maxBaseNumber: 9
+  opsNumElems: 3
+  levelNumElems: 3
+  numberOptions: 5
+  maxseconds: 15
+  Questions: []
+  Options: []
+  currentQ: 0
+  totalKills: 0
+  currentmadlife: 3
+  laserPrefab: {fileID: 0}
+  LaserBeamSound: {fileID: 8300000, guid: 4a426890d542b064eb2f6dafd43eb3e2, type: 3}
+  BadHitSound: {fileID: 8300000, guid: db4bd10cd27713e4099451ecd6612b64, type: 3}
+  myAudioSource: {fileID: 0}
+  clockTock: {fileID: 8300000, guid: d034cb6523c2e8643a99a13d4a783412, type: 3}
+  madJump: {fileID: 8300000, guid: 0214b8ef0845f1d47a3a0a724e4f9ec6, type: 3}

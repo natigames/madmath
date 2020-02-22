@@ -1,0 +1,15 @@
+﻿{
+    "useSum" : true,
+    "useSub" : true,
+    "useMul" : false,
+    "useDiv" : false,
+    "usePar" : false,
+    "useNeg" : false,
+    "Decimals" : 0,
+    "minBaseNumber" : -99.0,
+    "maxBaseNumber" : 99.0,
+    "opsNumElems" : 2,
+    "levelNumElems" : 10,
+    "numberOptions": 3,
+    "maxseconds" :  15
+}
